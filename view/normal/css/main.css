@@ -1,0 +1,412 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+a:focus
+{
+    outline: none;
+}
+a
+{
+    text-decoration: none;
+
+    color: black;
+}
+a:hover
+{
+    text-decoration: underline;
+}
+body
+{
+    margin-top: 52px;
+    margin-bottom: 50px;
+
+    color: #800000;
+}
+.side-tool
+{
+    position: fixed;
+    z-index: 999;
+    right: 0;
+    bottom: 180px;
+}
+.side-tool a
+{
+    font-family: 'Microsoft Yahei';
+    font-size: 25px;
+    font-weight: 900;
+    line-height: 40px;
+
+    display: block;
+
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+
+    text-align: center;
+
+    color: #fff;
+    background-color: #dd8077;
+}
+.side-tool a:hover
+{
+    text-decoration: none;
+
+    background-color: #b00;
+}
+.main p,
+.quoteview p
+{
+    font-size: 16px;
+    line-height: 25px;
+
+    margin-top: .7em;
+    padding: 0 20px;
+}
+.header
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 50px;
+
+    background: #0593d3;
+}
+.header ul
+{
+    list-style: none;
+}
+#logo
+{
+    line-height: 50px;
+
+    float: left;
+
+    height: 50px;
+    padding: 0 20px;
+
+    text-align: center;
+}
+#logo h1
+{
+    font-size: 24px;
+    font-weight: normal;
+}
+.header > .container > ul > li
+{
+    line-height: 50px;
+
+    height: 48px;
+
+    text-align: center;
+
+    border: 1px solid #0593d3;
+}
+.header > .container > ul > li > ul > li
+{
+    line-height: 30px;
+
+    width: 150px;
+    height: 30px;
+    margin: 5px 0;
+    padding: 5px;
+
+    text-align: left;
+}
+.header > .container > ul > li > ul > li > a
+{
+    color: #444;
+}
+.header > .container > ul > li > ul > li > a:hover
+{
+    color: #fff;
+    background-color: #0593d3;
+}
+.header > .container > ul > li > ul
+{
+    padding: 0 10px;
+
+    border: 1px solid #ccc;
+    background-color: #fff;
+}
+.header a
+{
+    font-family: 'Microsoft YaHei';
+
+    color: #fff;
+}
+.header a:hover
+{
+    text-decoration: none;
+}
+.header li a
+{
+    display: block;
+}
+.container
+{
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 0 35px;
+}
+.main
+{
+    height: 100%;
+    margin-left: 250px;
+
+    border-left: 1px solid #ddd;
+    background-color: #fff;
+}
+.category
+{
+    line-height: 100px;
+
+    height: 70px;
+
+    text-align: center;
+}
+.quoteview
+{
+    position: absolute;
+
+    display: none;
+
+    border: 1px solid black;
+}
+.discussion
+{
+    margin-bottom: 1px;
+    padding: 10px;
+
+    background-color: #fff;
+}
+.title
+{
+    font-weight: bold;
+
+    color: #cc1105;
+}
+.user
+{
+    color: #117743;
+}
+.link
+{
+    color: #07d;
+}
+.link-normal
+{
+    font-size: 13px!important;
+}
+.link-rep
+{
+    font-size: 16px!important;
+}
+.reply
+{
+    display: inline-block;
+
+    margin: 10px 0 0 2px;
+    padding: 5px 10px;
+
+    background-color: #f0e0d6;
+}
+.quote
+{
+    cursor: default;
+
+    color: #789922;
+}
+.new-discus
+{
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 50px 20px;
+
+    border: 1px solid #ccc;
+    background-color: #fff;
+}
+.formtext
+{
+    font-family: 'Microsoft YaHei';
+    font-weight: bold;
+
+    display: inline-block;
+
+    width: 100px;
+    margin: 0 5px 5px 0;
+
+    background-color: #ea8;
+}
+#title
+{
+    width: 50%;
+}
+#content
+{
+    width: 100%;
+    padding: 5px;
+}
+#pagination-digg
+{
+    margin: 15px 5px 50px;
+}
+#pagination-digg li
+{
+    font-size: 15px;
+
+    float: left;
+
+    margin: 0;
+    padding: 0;
+
+    list-style: none; /* savers */
+
+    border: 0;
+}
+#pagination-digg a
+{
+    margin-right: 2px;
+
+    border: solid 1px #9aafe5;
+}
+#pagination-digg .previous-off,
+#pagination-digg .next-off
+{
+    font-weight: bold;
+
+    display: block;
+    float: left;
+
+    margin-right: 2px;
+    padding: 3px 4px;
+
+    color: #888;
+    border: solid 1px #dedede;
+}
+#pagination-digg .next a,
+#pagination-digg .previous a
+{
+    font-weight: bold;
+}
+#pagination-digg .active
+{
+    font-weight: bold;
+
+    display: block;
+    float: left;
+
+    margin-right: 2px;
+    padding: 4px 6px; /* savers */
+
+    color: #fff;
+    background: #2e6ab1;
+}
+#pagination-digg a:link,
+#pagination-digg a:visited
+{
+    display: block;
+    float: left;
+
+    padding: 3px 6px;
+
+    text-decoration: none;
+
+    color: #0e509e;
+}
+#pagination-digg a:hover
+{
+    border: solid 1px #0e509e;
+    background-color: #eee;
+}
+.footer
+{
+    font-family: 'Microsoft Yahei';
+    font-size: 12px;
+
+    position: fixed;
+    bottom: 0;
+    left: 0;
+
+    width: 100%;
+    height: 45px;
+
+    border-top: 1px solid #000;
+    background-color: #fff;
+}
+.footer_bar
+{
+    line-height: 23px;
+
+    float: left;
+    clear: left;
+
+    width: 100%;
+    height: 50%;
+}
+#footer_img_up
+{
+    float: left;
+
+    width: 25px;
+    height: 30px;
+
+    background-image: url(http://cdn.aixifan.com/h/image/2014-10-20/4c965224-ed2d-4233-9ffe-9b013619eb36.gif);
+    background-repeat: no-repeat;
+}
+#footer_img_down
+{
+    float: left;
+
+    width: 25px;
+    height: 30px;
+
+    background-image: url(http://img1.nimingban.com/image/2015-11-10/5640c3ffe84d0.gif);
+    background-repeat: no-repeat;
+}
+.footer a
+{
+    color: #07d;
+}
+.lmenu
+{
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
+    float: left;
+
+    min-width: 250px;
+    padding: 25px 0 0 0;
+}
+.lmenu a
+{
+    font-size: 15px;
+    line-height: 30px;
+
+    display: block;
+
+    height: 30px;
+    padding-left: 15px;
+
+    text-decoration: none;
+    letter-spacing: 1px;
+
+    color: #444;
+}
+.lmenu li
+{
+    list-style: none;
+}
+.lmenu li:hover
+{
+    background-color: #f1f1f1;
+}
+.lmenu-active
+{
+    font-weight: bold;
+
+    color: #fff!important;
+    background-color: #00a8e6;
+}

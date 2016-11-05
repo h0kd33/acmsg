@@ -1,0 +1,121 @@
+﻿body{
+	padding-top: 60px;
+	color:#800000;
+	font-family: "宋体";
+}
+a:focus{outline:none;}
+#lmenu .nav li a{
+	border-radius: 0;
+	padding: 6px 15px;
+}
+.side-tool{
+	position: fixed;
+	bottom: 180px;
+	right: 0;
+	z-index: 999;
+}
+.side-tool a{
+	display: block;
+	margin: 5px;
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	color: #fff;
+	background-color: #DD8077;
+}
+.side-tool a:hover{
+	text-decoration: none;
+	background-color: #b00;
+}
+.curr-login{
+	padding: 15px 5px;
+	color: #fff;
+}
+.quoteview{
+    position: absolute;
+    z-index: 999;
+    display: none;
+    border: 1px solid black;
+}
+.text-title,.text-nickname{
+	font-weight: bold;
+	font-size: 15px;
+
+}
+.text-title{
+	color: #cc1105;
+}
+.text-nickname{
+	color: #117743;
+}
+.text-date,.text-id{
+	font-size: 12px;
+	color: #555;
+}
+.text-link{
+	font-size: 16px;
+}
+.text-link-sm{
+	font-size: 12px;
+}
+.text-po{
+	font-size:14px;
+	color:#2D7091;
+}
+.text-content{
+	font-size: 15px;
+	margin: 10px 0 5px;
+	padding: 0 10px;
+}
+.quote{
+	cursor: default;
+	color:#789922;
+}
+.main{
+	border-left: 1px solid #ccc;
+	min-height: 600px;
+}
+.reply{
+	padding: 5px 10px;
+	margin: 5px;
+	background-color: #f0e0d6;
+	display: inline-block;
+}
+#new-discuss{
+	position: relative;
+	border: 1px solid #ccc;
+	border-top: 20px groove skyblue;
+	padding: 0 35px 5px;
+}
+#new-discuss>p{
+	font-family: 'Microsoft YaHei';
+	font-weight: bold;
+	font-size: 2em;
+	text-align: center;
+	line-height: 1.1em;
+	margin: 20px 0;
+}
+#new-discuss input[type=text]{
+	padding: 0 2px;
+	width: 76%;
+}
+#new-discuss input[type=submit]{
+	padding:1px 10px;
+}
+#new-discuss textarea{
+	width: 99%;
+}
+#textface{
+	padding: 1px 5px;
+}
+.formtext{
+	display: inline-block;
+	margin: 0 5px 5px 0;
+	background-color: #EEAA88;
+	width: 22%;
+	font-family: "Microsoft YaHei";
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 1.6;
+}

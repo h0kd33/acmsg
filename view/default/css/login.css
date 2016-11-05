@@ -1,0 +1,49 @@
+body{
+    font-family:"SimSun";
+    padding-top: 70px;
+}
+h1{
+    margin:20px 0 30px 0;
+    padding-left: 40px;
+    text-align:center;
+    margin-left:-25px;
+    font-size:35px;
+    font-family: "Microsoft Yahei";
+    font-weight: bold;
+    text-shadow: 0px 1px 1px #555;
+}
+h1 a:hover{
+    text-decoration: none;
+}
+h1 sup{
+    margin-left: 5px;
+    top: -1em;
+    font-size: 16px;
+}
+.bar{
+    max-width: 370px;
+    margin: 0 auto;
+}
+.panel-heading {
+    position:relative;
+}
+.panel-heading a{
+    display: inline-block;
+    width: 47%;
+    text-align: center;
+    text-decoration: none;
+    color: #999;
+}
+.panel-heading .heading-line{
+    position: absolute;
+    bottom: 0;
+    left: 12%;
+    border-bottom: 2px solid #848484;
+    width: 30%;
+}
+.panel-heading .active,.panel-heading a:hover{
+    color: #333;
+}
+.reg-form{
+    display: none;
+}
