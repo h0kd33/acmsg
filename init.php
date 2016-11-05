@@ -36,7 +36,7 @@ function __autoload ($class) {
 }
 
 //设置报错级别
-defined('DEBUG') ? error_reporting(E_ALL) : error_reporting(0);
+DEBUG ? error_reporting(E_ALL) : error_reporting(0);
 
 //递归过滤参数
 if (!get_magic_quotes_gpc()){
